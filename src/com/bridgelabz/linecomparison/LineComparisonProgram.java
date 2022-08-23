@@ -1,11 +1,12 @@
 package com.bridgelabz.linecomparison;
 
 import java.util.Scanner;
+
 public class LineComparisonProgram {
 
     public static void main(String[] args) {
         System.out.println("welcome to line comparison computation program");
-        LineComparisonProgram lineCompare=new LineComparisonProgram();
+        LineComparisonProgram lineCompare = new LineComparisonProgram();
         lineCompare.getLength();
 
 
@@ -28,8 +29,8 @@ public class LineComparisonProgram {
          x4 = scr.nextInt();
          y4 = scr.nextInt();
 
-         int length1=(int) Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
-         int length2=(int) Math.sqrt(Math.pow(y4-x3,2)+ Math.pow(y4-y3,2));
+         int length1 = (int) Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+         int length2 = (int) Math.sqrt(Math.pow(y4-x3,2)+ Math.pow(y4-y3,2));
         System.out.println("Length of line1 is: "+length1);
         System.out.println("Length of line2 is: "+length2);
         Integer lineLength1=length1;
